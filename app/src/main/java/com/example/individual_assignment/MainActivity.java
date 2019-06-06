@@ -38,14 +38,14 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
         switch(item.getItemId()) {
-            case R.id.navigation_home:
-                fragment = new HomeFragment();
+            case R.id.navigation_family:
+                fragment = new FamilyFragment();
                 break;
-            case R.id.navigation_dashboard:
-                fragment = new DashboardFragment();
+            case R.id.navigation_tasks:
+                fragment = new TasksFragment();
                 break;
-            case R.id.navigation_notifications:
-                fragment = new NotificationFragment();
+            case R.id.navigation_rewards:
+                fragment = new RewardsFragment();
                 break;
         }
         return loadFragment(fragment);

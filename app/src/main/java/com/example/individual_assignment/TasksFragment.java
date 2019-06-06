@@ -9,11 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class DashboardFragment extends Fragment {
+public class TasksFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_dashboard, null);
+        return inflater.inflate(R.layout.fragment_tasks, null);
     }
 }
