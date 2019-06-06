@@ -1,4 +1,4 @@
-package com.example.individual_assignment.ui;
+package com.example.individual_assignment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,8 +7,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.example.individual_assignment.R;
 
 
 public class FamilyFragment extends Fragment {

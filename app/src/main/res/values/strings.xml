@@ -3,23 +3,4 @@
     <string name="title_family">Family</string>
     <string name="title_tasks">Tasks</string>
     <string name="title_rewards">Rewards</string>
-    <string name="title_LabelText">Task Title:</string>
-    <string name="responsible_LabelText">Who is responsible for this task?</string>
-    <string name="points_LabelText">How many points for this task?</string>
-    <string name="date_LabelText">Due date:</string>
-    <string name="title_HintText">Title</string>
-    <string name="points_HintText">amount</string>
-    <string name="date_HintText">date</string>
-    <string name="btn_AddText">Add task!</string>
-
-    <string-array name="responsiblePossible">
-        <item>Robbie de Gier</item>
-        <item>Tim Beir</item>
-        <item>John Doe</item>
-    </string-array>
-
-
-
-
-
 </resources>

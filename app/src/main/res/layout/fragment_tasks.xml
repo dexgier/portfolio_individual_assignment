@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#6600BCD4"
-    tools:context=".ui.AddNewTask">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    
+    <TextView
 
-    </android.support.design.widget.AppBarLayout>
-
-    <include
-        layout="@layout/content_add_task"
         android:layout_width="wrap_content"
-        android:layout_height="573dp" />
-
-</android.support.design.widget.CoordinatorLayout>
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text = "@string/title_tasks"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+</RelativeLayout>
